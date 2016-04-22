@@ -18,6 +18,9 @@ from .geom_path import geom_path
 from .geom_point import geom_point
 from .geom_pointrange import geom_pointrange
 from .geom_rect import geom_rect
+# garyfeng
+from .geom_segment import geom_segment
+# end
 from .geom_smooth import geom_smooth
 from .geom_step import geom_step
 from .geom_text import geom_text
@@ -34,7 +37,7 @@ __geoms__ = ['geom_abline', 'geom_area', 'geom_bar', 'geom_boxplot', 'geom_densi
             'geom_dotplot', 'geom_blank', 'geom_linerange', 'geom_pointrange',
              'geom_histogram', 'geom_hline', 'geom_jitter', 'geom_line', 'geom_linerange',
              'geom_now_its_art', 'geom_path', 'geom_point', 'geom_pointrange', 'geom_rect',
-             'geom_step', 'geom_smooth', 'geom_text', 'geom_tile',
+             'geom_step', 'geom_segment','geom_smooth', 'geom_text', 'geom_tile', #garyfeng: segment
              'geom_vline']
 __components__ = ['ylab', 'xlab', 'ylim', 'xlim', 'labs', 'ggtitle']
 __all__ = __geoms__ + __facet__ + __components__
