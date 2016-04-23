@@ -6,7 +6,10 @@ from .theme_xkcd import theme_xkcd
 from .theme_matplotlib import theme_matplotlib
 from .theme_seaborn import theme_seaborn
 from .element_text import element_text
+# garyfeng
+from .theme_noy import theme_noy
 
 __all__ = ["theme", "theme_538", "theme_bw", "theme_gray", "theme_xkcd",
-           "theme_matplotlib", "theme_seaborn", "element_text"]
+           "theme_matplotlib", "theme_seaborn", "element_text",
+           "theme_noy"]
 __all__ = [str(u) for u in __all__]
